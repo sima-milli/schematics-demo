@@ -1,3 +1,5 @@
+![GitHub package.json version](https://img.shields.io/github/package-json/v/sima-milli/schematics-demo)
+
 # Custom Angular Components Using Schematics
 
 A custom reusable Angular schematics project to generate stepper wizard
