@@ -1,5 +1,5 @@
 {
-  "name": "schematics-demo",
+  "name": "@simamilli/schematics-demo",
   "version": "1.0.0",
   "description": "schematics project to add a custom stepper wizard component",
   "scripts": {
@@ -12,6 +12,7 @@
   ],
   "author": "Simaa_Milli",
   "license": "MIT",
+  "repository":"https://github.com/sima-milli/schematics-demo",
   "schematics": "./src/collection.json",
   "dependencies": {
     "@angular-devkit/core": "^11.2.6",
