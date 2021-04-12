@@ -1,0 +1,27 @@
+{
+  "name": "schematics-demo",
+  "version": "1.0.0",
+  "description": "schematics project to add a custom stepper wizard component",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js",
+    "start": "npm run build && schematics .:schematics-demo --name=test-component"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "Simaa_Milli",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^11.2.6",
+    "@angular-devkit/schematics": "^11.2.6",
+    "typescript": "~4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "@types/jasmine": "~3.5.0",
+    "jasmine": "^3.5.0",
+    "tslint": "^5.18.0"
+  }
+}
