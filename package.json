@@ -1,6 +1,6 @@
 {
   "name": "@simamilli/schematics-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "schematics project to add a custom stepper wizard component",
   "scripts": {
     "build": "tsc -p tsconfig.json",
